@@ -34,6 +34,7 @@ h1 {
 .join {
     background-color: var(--color-light);
     margin: 0 auto;
+    border-radius:10px;
 }
 
 .day {
@@ -93,6 +94,7 @@ h1 {
     font-size: 1.1rem;
     max-width: 90%;
     line-height:0.8;
+    border-radius: 0 0 10px 10px;
 }
 
 .why-title {
