@@ -1,11 +1,123 @@
-*,
-*::before ::after {
+@import url('https://fonts.google.com/specimen/Karla'):root {
+    --color-light: #ffff;
+    --color-Cyan: hsl(179, 62%, 43%);
+    --color-dark-Cyan: hsl(179, 70%, 30%);
+    --color-Bright-Yellow: hsl(71, 73%, 54%);
+    --color-Light-Gray: hsl(204, 43%, 93%);
+    --color-Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+::before ::after {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-size: 16px;
-    background-color: hsl(204, 43%, 93%);
-    margin-top: 50px;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 1.5em;
+    background-color: var(--color-Light-Gray);
+    font-family: Karla;
+}
+
+section {
+    padding: 3em 2em;
+}
+
+h1 {
+    color: var(--color-Cyan);
+    margin-top: 0;
+    font-size: 1.7rem;
+}
+
+.join {
+    background-color: var(--color-light);
+    margin: 0 auto;
+}
+
+.day {
+    color: var(--color-Bright-Yellow);
+}
+
+.gain {
+    font-size: 1.3rem;
+    color: var(--color-Grayish-Blue);
+}
+
+.month {
+    background-color: var(--color-Cyan);
+    color: var(--color-light);
+    max-width: 90%;
+}
+
+.month-title {
+    margin-top: 0em;
+    font-size: 1.6rem;
+}
+
+.month-subtitle {
+    color: var(--color-Light-Gray);
+    font-size: 1.3rem;
+}
+
+.month-sub-subtitle {
+    font-size: 1.2rem;
+    line-height: 0.6;
+}
+
+.dollar {
+    font-size: 2.5rem;
+    color: var(--color-light);
+    font-weight: 700;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--color-Bright-Yellow);
+    padding: .45em 2em;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    border-radius: 5px;
+    box-shadow: 0.2px 0px 0px 0px;
+}
+
+.why {
+    background-color: var(--color-dark-Cyan);
+    color: var(--color-light);
+    font-size: 1.1rem;
+    line-height: 0.8;
+    max-width: 90%;
+}
+
+.why-title {
+    margin-top: 0em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(min-width:800px) {
+    body {
+        padding: 5em 15em;
+    }
+    .row {
+        display: flex;
+    }
+    .month {
+        width: 45%;
+    }
+    .why {
+        width: 44%;
+    }
 }
