@@ -92,6 +92,7 @@ h1 {
     color: var(--color-light);
     font-size: 1.1rem;
     max-width: 90%;
+    line-height:0.8;
 }
 
 .why-title {
