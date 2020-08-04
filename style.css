@@ -122,5 +122,6 @@ h1 {
     }
     .why {
         width: 44%;
+        border-radius:0;
     }
 }
