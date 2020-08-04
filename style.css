@@ -1,4 +1,5 @@
-@import url('https://fonts.google.com/specimen/Karla'):root {
+@import url('https://fonts.google.com/specimen/Karla');
+:root {
     --color-light: #ffff;
     --color-Cyan: hsl(179, 62%, 43%);
     --color-dark-Cyan: hsl(179, 70%, 30%);
